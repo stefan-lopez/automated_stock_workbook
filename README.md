@@ -15,6 +15,7 @@ You’ll need the following:
 - [Python 3.7.0](https://www.python.org/downloads/release/python-368/) (other Python 3 versions may work as well)
 - Python's PIP package installer
 - Microsoft Excel
+- An API key from alphavantage.co, you can get one for free here: https://www.alphavantage.co/support/#api-key
 
 ## Getting Started
 

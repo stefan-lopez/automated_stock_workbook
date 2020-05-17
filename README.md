@@ -3,7 +3,7 @@
 
 ## Project File Overview
 
-- [`stock_archivist.py`](stock_archivist.py) script for downloading .
+- [`stock_archivist.py`](stock_archivist.py) script for downloading historical data for the specified stocks.
 - [`gmailer.py`](gmailer.py) helper module for emailing functionality.
 - [`config.yaml`](config.yaml) config file for defining which stocks to download and providing necessary authentication.
 - [`stock_archive_template.xlsx`](stock_archive_template.xlsx) template Excel workbook used to generate final stock workbook.

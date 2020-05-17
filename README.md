@@ -50,10 +50,23 @@ Sign up for API access here and note the key they provide you upon successful si
 https://www.alphavantage.co/support/#api-key
 ```
 
-Fill out the config.yaml file with your api key as well as the ticker symbols you wish to get daily data for. If you wish to send out on automated email, fill out those fields as well.
+Fill out the config.yaml file with your api key as well as the ticker symbols you wish to get daily data for. If you wish to send out an automatic email containing your workbook, fill out those fields as well.
+
+If you elect to send emails you may run into authentication issues. Follow this link for info on how to enable your gmail account to send automated emails.
 
 ```
-https://www.alphavantage.co/support/#api-key
+https://stackabuse.com/how-to-send-emails-with-gmail-using-python/
 ```
 
+Run the stock archivist script to create your own stock visualizer workbook.
+
+```
+python stock_archivist.py
+```
+
+WARNING: If you emailed the workbook out and attempt to open it directly from your browser, you may run into a corrupt file error. This is due to the Protected View on Office products and is expected behavior. You can either go to your downloads folder and open the workbook from there, or disable the Protected View on your version of Excel. Follow this link for more details:
+
+```
+https://www.easeus.com/resource/the-file-is-corrupted-and-cannot-be-opened.html
+```
 

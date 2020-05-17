@@ -1,0 +1,11 @@
+api_key : YOUR_KEY_HERE
+tickers :
+ - TICKER1
+ - TICKER2
+email : YOUR_GMAIL
+email_pass : YOUR_GMAIL_PASSWORD
+subject : YOUR_SUBJECT_LINE
+message : YOUR_MESSAGE
+recipients :
+ - RECIPIENT1
+ - RECIPIENT2
